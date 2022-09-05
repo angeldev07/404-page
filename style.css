@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Space Mono', monospace;
+}
+
+.error_page{
+    display: block;
+    margin: 1.5rem;
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px,1fr));
+    place-content: center;
+    padding: 2rem 0 0;
+    max-width: 1200px;
+}
+
+.img-container{
+    margin: 0 2rem 1rem;
+}
+
+.img-404{
+    width: 100%;
+}
+
+.container-404{
+    padding: 1.5rem;
+}
+
+.title{
+    margin-bottom: 1.9rem;
+    font-size: 2.5rem;
+    font-family: monospace;
+    color: #333;
+}
+
+.message{
+    margin-bottom: 3rem;
+    font-family: 'Space mono';
+    line-height: 1.7;
+}
+
+.cta{
+    background-color: #333;
+    display: inline-block;
+    padding: 1.5em 2em;
+    border-radius: 5px;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: background-color .3s;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    padding: 1em 0;
+}
+.contribution{
+    color: #BDBDBD;
+    font-size: .7rem;
+}
+
+.contribution a{
+    color: #BDBDBD;
+}
+
+@media screen and (min-width: 800px) {
+
+    .header{
+        padding: 0 4rem;
+    }
+
+    .container{
+        padding: 3rem 1rem;
+        margin: 3rem 2rem 0;
+    }
+
+    .title{
+        font-size: 4rem;
+    }
+
+    .message{
+        width: 300px;
+        padding-right: 2em;
+    }
+
+    .cta:hover{
+        background-color: #555;
+    }
+
+    .footer{
+        padding: 0
+    }
+}
