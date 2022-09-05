@@ -32,4 +32,4 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- GitHub [@your-username](https://github.com/Ang3l-SPF)
+- GitHub [Ang3l-SPF](https://github.com/Ang3l-SPF)
